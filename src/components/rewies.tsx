@@ -29,7 +29,7 @@ const Rewies = () => {
                                 <h1>Alex K.</h1>
                                 <img src="Frame (3).png" alt="" />
                             </div>
-                            <p>&quot;Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.&quot;</p>
+                            <p>&quot;Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes.&quot;</p>
                         </div>
                     </div>
 
@@ -40,7 +40,7 @@ const Rewies = () => {
                                 <h1>James L.</h1>
                                 <img src="Frame (3).png" alt="" />
                             </div>
-                            <p>&quot;As someone who&apos;s always on the lookout for unique fashion pieces, I&apos;m thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.&quot;</p>
+                            <p>&quot;As someone who&apos;s always on the lookout for unique fashion pieces, I&apos;m thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the.&quot;</p>
                         </div>
                     </div>
                 </div>

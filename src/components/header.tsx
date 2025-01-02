@@ -1,95 +1,61 @@
-"use client";
+'use client';
 
 import React from 'react';
 import Link from 'next/link';
 import Image from "next/image";
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-  } from "@/components/ui/dropdown-menu"
-  
-
+import NavItems from './navitems';
+import MobileNav from './MobileNav';
 
 const Header = () => {
     return (
         <>
+            {/* Promo Bar */}
+            <div className="bg-black w-full h-[48px] flex items-center justify-between px-4 text-white">
+                <p className="text-sm">
+                    Sign up and get 20% off your first order.
+                </p>
+                <a href="/" className="text-white underline text-sm">Shop Now</a>
+            </div>
 
-<div className="bg-black w-80% h-[48px] flex flex-wrap lg:items-center px-4">
-  <p className="text-white text-sm lg:ml-[30rem]">
-  Sign up and get 20% off to your first order.
-  </p>
-  <a href="/" className="text-white underline text-sm ml-0">Shop Now</a>
+            <div className='flex justify-between mr[6rem] mt-[1rem] '>
+              
+            {/* Mobile Navigation */}
+            <div className="md:hidden">
+                <MobileNav />
+            </div>
+            <Link href="/" className="font-extrabold font-integral text-2xl md:text-3xl lg:text-4xl md:ml-[6rem] mr-[2rem]">SHOP.CO</Link>
+           
+            {/* Main Navigation */}
+            <nav className="hidden md:flex justify-between items-center px-4 py-4">
+                <NavItems />
+                </nav>
+                {/* Search Bar */}
 
- 
-    <p className="text-white lg:ml-[19rem] hidden" >
-        x
-    </p>
-  </div>
-<nav className='flex flex-wrap ml-8 mt-8 '>
-    <h1 className='font-extrabold  font-integral text-4xl ml-[6rem] mr-[2rem] '>SHOP.CO</h1>
-<div className='flex flex-wrap gap-4 mt-2'>
-<Link href="/" className="no-underline text-black hover:text-blue-500">
-<DropdownMenu>
-  <DropdownMenuTrigger className='flex'>shop
-    <img src="Frame (4).png" alt=""  className='mt-1 ml-1 cursor-pointer '/>
-  </DropdownMenuTrigger>
-  <DropdownMenuContent>
-    <DropdownMenuLabel>Collection</DropdownMenuLabel>
-    <DropdownMenuSeparator />
-    <DropdownMenuItem> <Link href="/contact" className="text-black hover:text-blue-500">
-    Man T-shirt
-  </Link></DropdownMenuItem>
-    <DropdownMenuItem><Link href="/casual" className="text-black hover:text-blue-500">
- casual
-  </Link></DropdownMenuItem>
-    <DropdownMenuItem><Link href="/casual" className="text-black hover:text-blue-500">
-    Latest Fashion
-  </Link></DropdownMenuItem>
-  </DropdownMenuContent>
-</DropdownMenu>
-  </Link>
-
-
-  <Link href="/casual" className="text-black hover:text-blue-500">
-  On Sale
-  </Link>
-  <Link href="/cart" className="text-black hover:text-blue-500">
-New Arrivals
-</Link>
-
-  
-  <Link href="/Login" className="text-black hover:text-blue-500">
-  Brands
-  </Link> </div>
-  <div className="flex items-center bg-gray-100 border border-gray-300 rounded-[100px] px-2 ml-[2rem]">
+              <div className='flex gap-2  mr[3rem] '>
+                <div className="flex items-center bg-gray-100 border border-gray-300 rounded-[100px] px-2 ml-[2rem]">
   <button className="">
     <img src="Frame (7).png" alt="Component 2.png" />
   </button>
   <input
     type="text"
     placeholder="What are you looking for?"
-    className=" palce  sm:hidden flex-1 bg-transparent w-[577px] h-[38px] text-gray-600 placeholder-gray-500 outline-none xsm:hidden md:block lg:block"
+    className=" palce  hidden flex-1 bg-transparent w-[577px] h-[38px] text-gray-600 placeholder-gray-500 outline-none xsm:hidden md:block lg:block"
   />
 </div>
 
-
- <a href="/cart" className="mr-3 mt-2 ml-3">
-  <img src="Frame (8).png" alt="Wishlist" />
-</a>
-
-  <button className="">
-<img src="Frame (9).png" alt="Cart1 with buy (1).png" />
-  </button>
-
-</nav>
-
-<div className='h-[1px] w-[100%] bg-gray-300 mt-3'></div>
-
-
+                {/* Wishlist and Cart */}
+                <div className="flex items-center gap-3">
+                    <a href="/cart">
+                        <img src="Frame (8).png" alt="Wishlist" />
+                    </a>
+                    <button>
+                        <img src="Frame (9).png" alt="Cart" />
+                    </button>
+                </div>
+              </div>
+              </div>
+            {/* Divider */}
+            <div className="h-[1px] w-full bg-gray-300 mt-3"></div>  
         </>
     );
 }
