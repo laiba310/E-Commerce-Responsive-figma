@@ -16,7 +16,7 @@ const NavItems = () => {
               <DropdownMenuLabel>Collection</DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
-                <Link href="/contact" className="text-black hover:text-blue-500">Man T-shirt</Link>
+                <Link href="/casual" className="text-black hover:text-blue-500">Man T-shirt</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href="/casual" className="text-black hover:text-blue-500">Casual</Link>

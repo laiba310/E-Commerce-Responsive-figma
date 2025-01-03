@@ -63,9 +63,10 @@ export const Newarrival = () => {
 
     {/* Scroll Button */}
     <div className="flex justify-center items-center">
+    <Link href="/casual">
         <button className="mt-4 w-[270px] h-[52px] bg-white text-black py-3 border border-gray-500 rounded-[100px] transition-transform duration-500 ease-in-out hover:scale-110">
             View All
-        </button>
+        </button> </Link>
     </div>
 
   <div className="flex justify-center items-center">
@@ -132,9 +133,10 @@ export const Newarrival = () => {
                           </div>
                           </div>
                           <div className="flex justify-center items-center">
+                          <Link href="/casual">
   <button className="mt-4  w-[270px] h-[52px] bg-white text-black py-3 border border-gray-500 rounded-[100px] transition-transform duration-500 ease-in-out hover:scale-110 ">
     view all
-  </button></div>
+  </button></Link></div>
   <div className="flex justify-center items-center">
   <div className="h-[1px] w-[80%] bg-gray-300 mb-4 mt-7 justify-center items-center"  ></div>
 

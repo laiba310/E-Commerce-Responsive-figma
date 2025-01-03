@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const Hero = () => {
   return (
@@ -19,9 +20,9 @@ export const Hero = () => {
           Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
         </p>
         {/* Button */}
-        <button className="mt-4 w-[270px] h-[52px] bg-black text-white py-3 rounded-[100px] transition-transform duration-500 ease-in-out hover:scale-110 hover:bg-gray-800">
-          Shop Now
-        </button>
+        <Link href="/casual">
+        <button className="mt-4 w-[270px] h-[52px] bg-black text-white py-3 rounded-[100px] transition-transform duration-500 ease-in-out hover:scale-110 hover:bg-gray-800">Shop
+        </button></Link> 
       </div>
 
       {/* Image Section */}
