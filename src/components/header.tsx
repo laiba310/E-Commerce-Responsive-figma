@@ -32,15 +32,11 @@ const Header = () => {
                 {/* Search Bar */}
 
               <div className='flex gap-2  mr[3rem] '>
-                <div className="flex items-center bg-gray-100 border border-gray-300 rounded-[100px] px-2 ml-[2rem]">
+                <div className="flex items-center  rounded-[100px] px-2 ml-[2rem]">
   <button className="">
     <img src="Frame (7).png" alt="Component 2.png" />
   </button>
-  <input
-    type="text"
-    placeholder="What are you looking for?"
-    className=" palce  hidden flex-1 bg-transparent w-[577px] h-[38px] text-gray-600 placeholder-gray-500 outline-none xsm:hidden md:block lg:block"
-  />
+ 
 </div>
 
                 {/* Wishlist and Cart */}
