@@ -9,13 +9,13 @@ const MobileNav = () => {
   return (
           <nav className="md:hidden">
             <Sheet>
-              <SheetTrigger className="align-middle">
+              <SheetTrigger className="">
                 <Image
                   src="/menu.png"
                   alt="Menu"
                   width={24}
                   height={24}
-                  className="cursor-pointer"
+                  className="cursor-pointe ml[5rem]r"
                 />
               </SheetTrigger>
       

@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <>
             {/* Promo Bar */}
-            <div className="bg-black w-full h-[48px] flex items-center justify-between px-4 text-white">
+            <div className="bg-black w-full h-[48px] flex items-center px-4 text-white">
                 <p className="text-sm">
                     Sign up and get 20% off your first order.
                 </p>
@@ -20,11 +20,13 @@ const Header = () => {
             <div className='flex justify-between mr[6rem] mt-[1rem] '>
               
             {/* Mobile Navigation */}
+
+            <div>
             <div className="md:hidden">
                 <MobileNav />
             </div>
-            <Link href="/"> <h1 className="font-bold text-2xl  md:text-3xl mt-2 lg:text-4xl md:ml-[6rem] ">SHOP.CO </h1></Link>
-           
+            <Link href="/"> <h1 className="font-bold text-2xl  md:text-3xl mt-2 lg:text-4xl  ">AR.SHOP </h1></Link>
+            </div>
             {/* Main Navigation */}
             <nav className="hidden md:flex justify-between items-center px-4 py-4">
                 <NavItems />

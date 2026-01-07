@@ -77,7 +77,7 @@ export default function ProductClient({ data }: { data: Data }) {
             />
           </div>
           <div>
-            <h1 className="text-xl lg:text-3xl font-bold text-gray-800">
+            <h1 className="text-xl lg:text-3xl font-bold text-gray-800 md:mt-[4rem]">
               {data.title}
             </h1>
             <div className="flex items-center gap-2 mt-2">

@@ -28,7 +28,7 @@ export const Hero = () => {
       {/* Image Section */}
       <div className="w-full md:w-1/2 h-auto relative">
         <Image
-          src="/Rectangle 4.png"
+          src="/llll.jpg"
           alt="Hero Image"
           layout="responsive" // Ensure image is responsive
           width={800} // Image width
