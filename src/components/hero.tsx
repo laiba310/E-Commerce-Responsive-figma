@@ -8,10 +8,10 @@ export const Hero = () => {
       {/* Content Section */}
       <div className="w-full md:w-1/2 flex flex-col justify-center lg:pl-24 sm:pl-0 m-auto">
         <h1 className="font-IntegralCF w-full sm:w-[577px] sm:ml-2 text-[40px] sm:text-[64px] font-extrabold sm:text-left tracking-tight">
-          FIND CLOTHES
+          FIND CLOTHES THAT FIT
         </h1>
         <h1 className="font-IntegralCF w-full sm:w-[577px] sm:ml-2 text-[40px] sm:text-[64px] font-extrabold  sm:text-left tracking-tight">
-          THAT MATCHES
+          THAT MATCHE
         </h1>
         <h1 className="font-IntegralCF w-full sm:w-[577px] sm:ml-2 text-[40px] sm:text-[64px] font-extrabold sm:text-left tracking-tight">
           YOUR STYLE

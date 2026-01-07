@@ -25,7 +25,7 @@ const Header = () => {
             <div className="md:hidden">
                 <MobileNav />
             </div>
-            <Link href="/"> <h1 className="font-bold text-2xl  md:text-3xl mt-2 lg:text-4xl  ">AR.SHOP </h1></Link>
+            <Link href="/"> <h1 className="font-bold text-2xl  md:text-3xl mt-2 lg:text-4xl  ">AR.SHOPP </h1></Link>
             </div>
             {/* Main Navigation */}
             <nav className="hidden md:flex justify-between items-center px-4 py-4">
